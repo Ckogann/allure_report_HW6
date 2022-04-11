@@ -30,7 +30,7 @@ public class LambdaTest {
 
     @Test
     public void annotatedStepsTest() {
-        AnnotetedStepsTest steps = new AnnotetedStepsTest();
+        WebSteps steps = new WebSteps();
         steps.openMainPage();
         steps.searchRepository();
         steps.openRepository();
